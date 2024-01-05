@@ -1,7 +1,8 @@
 repo_name: mollypi/python-tasks
 report_id: 4a38785caf195898b0aae5c085117b1b
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T05:33:16+00:00'
+timestamp: '2024-01-05T08:42:06+00:00'
 requested_by: renovate-bot
 provider: github
 branch: main
@@ -17,7 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
-  detection_source_url: ".kokoro/requirements.txt"
+  detection_source_url: https://github.com/mollypi/python-tasks/blob/main/.kokoro/requirements.txt
   detection_source: ".kokoro/requirements.txt"
   last_updated_by: gcf-owl-bot[bot]
   last_updated_on: 2022-08-24 16:06:18.000000000 Z
@@ -30,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/mollypi/python-tasks
   detection_source: Repo Metadata
 - name: Protobuf
   description: Google's data interchange format
@@ -40,7 +42,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
-  detection_source_url: ".kokoro/requirements.txt"
+  detection_source_url: https://github.com/mollypi/python-tasks/blob/main/.kokoro/requirements.txt
   detection_source: ".kokoro/requirements.txt"
   last_updated_by: gcf-owl-bot[bot]
   last_updated_on: 2022-09-29 18:38:37.000000000 Z
@@ -52,6 +54,7 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/mollypi/python-tasks/blob/main/.kokoro/requirements.txt
   detection_source: ".kokoro/requirements.txt"
   last_updated_by: gcf-owl-bot[bot]
   last_updated_on: 2022-08-24 16:06:18.000000000 Z
@@ -64,6 +67,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/mollypi/python-tasks
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -73,6 +77,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/python-tasks
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -82,7 +87,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/unittest.yml"
+  detection_source_url: https://github.com/mollypi/python-tasks/blob/main/.github/workflows/docs.yml
+  detection_source: ".github/workflows/docs.yml"
   last_updated_by: gcf-owl-bot[bot]
   last_updated_on: 2022-08-09 16:44:17.000000000 Z
 - name: PyPI
@@ -93,6 +99,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/mollypi/python-tasks/blob/main/samples/snippets/requirements-test.txt
   detection_source: samples/snippets/requirements-test.txt
   last_updated_by: WhiteSource Renovate
   last_updated_on: 2022-09-06 16:36:51.000000000 Z
@@ -106,7 +113,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: samples/snippets/requirements-test.txt
+  detection_source_url: https://github.com/mollypi/python-tasks/blob/main/samples/snippets/requirements-test.txt
   detection_source: samples/snippets/requirements-test.txt
   last_updated_by: WhiteSource Renovate
   last_updated_on: 2022-09-06 16:36:51.000000000 Z
@@ -119,10 +126,11 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/mollypi/python-tasks
   detection_source: Repo Metadata
 - name: zipp
   description: Backport of pathlib-compatible object wrapper for zip files
-  package_url: https://pypi.org/zipp
+  package_url: https://pypi.org/project/zipp
   version: 3.8.1
   license: MIT
   open_source: true
@@ -130,7 +138,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
-  detection_source_url: ".kokoro/requirements.txt"
+  detection_source_url: https://github.com/mollypi/python-tasks/blob/main/.kokoro/requirements.txt
   detection_source: ".kokoro/requirements.txt"
   last_updated_by: gcf-owl-bot[bot]
   last_updated_on: 2022-08-24 16:06:18.000000000 Z
